@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <TableLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/tableLayout1">
+        <TableRow android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/tableRow1">
+            <TextView android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tx_time_start" android:textSize="20dp" android:layout_marginRight="50dp"></TextView>
+            <TextView android:text="TextView" android:id="@+id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="20dp"></TextView>
+        </TableRow>
+        <TableRow android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/tableRow2">
+            <TextView android:id="@+id/textView3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tx_time_now" android:textSize="20dp"></TextView>
+            <TextView android:text="TextView" android:id="@+id/textView4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="20dp"></TextView>
+        </TableRow>
+        <TableRow android:id="@+id/tableRow3" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:id="@+id/textView5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tx_time_passage" android:textSize="20dp"></TextView>
+            <TextView android:text="TextView" android:id="@+id/textView6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="20dp"></TextView>
+        </TableRow>
+        <TableRow android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/tableRow4">
+            <TextView android:id="@+id/textView7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tx_hourly_rate" android:textSize="20dp"></TextView>
+            <TextView android:text="TextView" android:id="@+id/textView8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="20dp"></TextView>
+        </TableRow>
+        <TableRow android:id="@+id/tableRow5" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:id="@+id/textView9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tx_daily_pay" android:textSize="20dp"></TextView>
+            <TextView android:text="TextView" android:id="@+id/textView10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="20dp"></TextView>
+        </TableRow>
+    </TableLayout>
+    <LinearLayout android:layout_height="wrap_content" android:id="@+id/linearLayout1" android:layout_width="fill_parent" android:orientation="horizontal" android:gravity="clip_horizontal" android:paddingTop="50dp">
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/button1" android:text="@string/tx_start" android:layout_weight="1"></Button>
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/button2" android:text="@string/tx_end" android:layout_weight="1"></Button>
+    </LinearLayout>
+    <TextView android:text="TextView" android:id="@+id/textView11" android:layout_height="wrap_content" android:layout_width="wrap_content" android:visibility="invisible"></TextView>
+</LinearLayout>

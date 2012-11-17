@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  android:title="設定" xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="アプリの設定">
+        <CheckBoxPreference android:key="keep_screen_on" android:title="画面を常にON" android:summary="画面を常にONにします"></CheckBoxPreference>
+    </PreferenceCategory><PreferenceCategory android:title="労働条件の設定">
+        <EditTextPreference android:title="時給[￥]" android:defaultValue="1000" android:key="basic_houry_rate" android:summary="基本給"></EditTextPreference>
+        <EditTextPreference android:title="時間外手当[%]" android:defaultValue="25" android:key="ext1_houry_rate" android:summary="時間外の割増賃金率"></EditTextPreference><EditTextPreference android:key="ext2_houry_rate" android:defaultValue="50" android:summary="時間外深夜の割増賃金率" android:title="時間外深夜手当[%]"></EditTextPreference>
+        
+        
+        
+        <CheckBoxPreference android:title="休憩時間を考慮する" android:summary="6時間以上45分,8時間を超える場合は1時間" android:key="is_check_breaktime" android:defaultValue="true"></CheckBoxPreference>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="時間帯の定義">
+        <EditTextPreference android:key="early_morning" android:defaultValue="5" android:title="早朝[時]" android:summary="何時から早朝とするか"></EditTextPreference>
+        <EditTextPreference android:key="start_time" android:defaultValue="9" android:title="始業[時]" android:summary="何時から始業とするか"></EditTextPreference>
+        <EditTextPreference android:key="end_time" android:defaultValue="18" android:title="終業[時]" android:summary="何時で終業とするか"></EditTextPreference>
+        <EditTextPreference android:key="late_evening" android:title="深夜[時]" android:defaultValue="22" android:summary="何時から深夜とするか"></EditTextPreference>
+    </PreferenceCategory>
+    
+</PreferenceScreen>

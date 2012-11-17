@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Main!</string>
+    <string name="app_name">SalaryCalc</string>
+    <string name="tx_time_start">出勤時刻 </string>
+    <string name="tx_time_end">退勤時刻 </string>
+    <string name="tx_time_now">現在時刻 </string>
+    <string name="tx_time_passage">経過時間 </string>
+    <string name="tx_start">出勤 </string>
+    <string name="tx_end">退勤 </string>
+    <string name="tx_hourly_rate">現在の時給 </string>
+    <string name="tx_daily_pay">本日の報酬 </string>
+</resources>
